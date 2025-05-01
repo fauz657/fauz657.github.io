@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cheese Rol - Jajanan Lezat</title>
+  <style>
+    body {
+      background-color: #fffaf0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #5a3e1b;
+    }
+    header {
+      background-color: #f7d488;
+      padding: 20px 0;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.8rem;
+      letter-spacing: 2px;
+    }
+    main {
+      max-width: 700px;
+      margin: 40px auto 60px auto;
+      padding: 0 20px;
+      background-color: #fff9f0;
+      border-radius: 15px;
+      box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+    }
+    .product-image {
+      display: block;
+      max-width: 400px;
+      width: 100%;
+      margin: 20px auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(90, 62, 27, 0.3);
+    }
+    .description {
+      font-size: 1.1rem;
+      line-height: 1.5;
+      margin: 20px 0;
+      text-align: center;
+    }
+    .price {
+      font-size: 1.8rem;
+      text-align: center;
+      margin: 20px 0 40px 0;
+      font-weight: bold;
+      color: #a65d00;
+    }
+    .btn-buy {
+      display: block;
+      background-color: #f9a825;
+      color: #5a3e1b;
+      font-size: 1.4rem;
+      font-weight: 700;
+      padding: 15px 30px;
+      margin: 0 auto 40px auto;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      box-shadow: 0 6px 10px rgba(249, 168, 37, 0.5);
+      transition: background-color 0.3s ease, transform 0.2s ease;
+      width: 220px;
+      text-align: center;
+    }
+    .btn-buy:hover {
+      background-color: #fbc02d;
+      transform: scale(1.05);
+    }
+    footer {
+      text-align: center;
+      color: #9e7d3a;
+      font-size: 0.9rem;
+      padding-bottom: 20px;
+    }
+    @media (max-width: 480px) {
+      main {
+        margin: 20px 15px 40px 15px;
+      }
+      header h1 {
+        font-size: 2rem;
+      }
+      .price {
+        font-size: 1.4rem;
+      }
+      .btn-buy {
+        width: 100%;
+        padding: 12px 0;
+        font-size: 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Cheese Rol - Nikmat dan Gurih</h1>  
+  </header>
+  <main>
+    <img
+      src="c:\Users\Hype GLK\OneDrive\Documents\WhatsApp Image 2025-05-01 at 10.21.39_b5af13ff.jpg"
+      alt="Cheese Rol"
+      class="product-image"
+    />
+    <p class="description">
+      Cheese Rol adalah camilan lezat dengan keju gurih yang meleleh di mulut. Dibuat dengan resep istimewa yang membuatnya renyah di luar sekaligus lembut di dalam. Cocok untuk teman santai atau oleh-oleh keluarga.
+    </p>
+    <p class="price">Harga: Rp5.000 / 4pcs</p>
+    <a href="https://wa.me/6285793589698?text=Halo%2C%20saya%20ingin%20memesan%20Cheese%20Rol." target="_blank" rel="noopener" class="btn-buy" id="btnBuy">Pesan Sekarang</a>
+
+  </main>
+  <footer>
+    &copy; 2025 Cheese Rol. Hubungi kami: +62 85793589698
+  </footer>
+  <script>
+    document.getElementById('btnBuy').addEventListener('click', function() {
+      alert('Terima kasih telah memesan Cheese Rol! Kami akan menghubungi Anda segera.');
+    });
+  </script>
+</body>
+</html>
+
+```
+
